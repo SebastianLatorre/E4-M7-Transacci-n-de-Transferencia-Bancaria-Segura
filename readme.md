@@ -2,6 +2,22 @@
 
 ## Transacción de Transferencia Bancaria Segura 🏦
 
+1. Repositorio GitHub
+   https://github.com/SebastianLatorre/E3-M7-Gestor-de-tareas-CRUD
+
+2. Agregar el archivo .env con el siguiente contenido:
+
+Solicitar credenciales por privado
+
+3. Probar el codigo con
+    > > pnpm start
+
+Se puede configurar las transferencias index.js
+
+> > const cuentaOrigenId = 1;
+> > const cuentaDestinoId = 2;
+> > const monto = 100.0;
+
 ### Objetivo
 
 Comprender y aplicar el concepto de transacciones en bases de datos para garantizar la integridad de los datos. Simularás una transferencia bancaria, una operación crítica donde es fundamental que todos los pasos se completen con éxito o, de lo contrario, ninguno lo haga, evitando así inconsistencias como la pérdida de dinero.
